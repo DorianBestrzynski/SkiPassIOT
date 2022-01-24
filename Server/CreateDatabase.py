@@ -22,9 +22,8 @@ def create_database():
         uidCard text primary key,
         rides integer
     )""")
-    print("Dorian")
+  
     connection.commit()
-    print("Boba")
     connection.close()
     print("The new database created.")
 
