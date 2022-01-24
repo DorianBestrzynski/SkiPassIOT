@@ -117,7 +117,7 @@ def process_message(client, userdata, message):
     elif message.topic == "gates":
         gates_process(message_decoded)
     elif message.topic == "admin":
-        gates_process(message_decoded)
+        admin_process(message_decoded)
 
 
 def connect_to_broker():
